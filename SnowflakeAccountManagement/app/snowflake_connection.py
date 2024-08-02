@@ -6,14 +6,15 @@ user = "NITHIN"
 password = "Nj@9390779404"
 account = "ngqvwsw-vc68866"
 
-
 def get_connection():
     try:
+        st.info("Attempting to connect to Snowflake...")
         conn = snowflake.connector.connect(
             user=user,
             password=password,
             account=account
         )
+        st.info("Successfully connected to Snowflake.")
         return conn
     except snowflake.connector.errors.Error as e:
         st.error(f"Snowflake Error: {e}")

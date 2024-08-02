@@ -5,7 +5,7 @@ def show():
     st.markdown("""
         <style>
             .stApp {
-                background-color: #ffffff;
+                background-color: black;
                 padding: 20px;
                 font-family: 'Arial', sans-serif;
             }

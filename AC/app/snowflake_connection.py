@@ -4,7 +4,7 @@ import streamlit as st
 
 # Snowflake credentials
 user = "NITHIN"
-password = "Nj@9390779404"
+password = "Nithin@2024"
 account = "ngqvwsw-vc68866"
 
 def get_connection():
